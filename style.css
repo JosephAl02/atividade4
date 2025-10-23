@@ -1,0 +1,35 @@
+/* style.css */
+
+/* estilo básico da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    line-height: 1.4;
+  }
+  
+  /* garante que todos os títulos com essa classe tenham peso normal */
+  .color-title {
+    font-weight: normal;
+    margin: 0 0 8px 0;
+  }
+  
+  /* cores dos títulos conforme o id (significado) */
+  #red   { color: red; }
+  #blue  { color: #1ea9f5; } /* azul claro */
+  #orange{ color: orange; }
+  #green { color: #0a6b1e; } /* verde escuro aproximado */
+  #yellow{ color: #e9d800; } /* amarelo */
+  
+  /* largura e altura*/
+  img {
+    width: 200px;
+    height: 200px;
+    display: block; /* força quebra de linha após o título */
+    object-fit: cover; /* preserva preenchimento recortando se necessário */
+    margin: 8px 0 16px 0;
+  }
+  
+  /* pequenos ajustes de aparência */
+  h1 { margin-top: 0; }
+  h2 { font-size: 1.1rem; }
+  
